@@ -65,7 +65,9 @@
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
-    "siteUrl": false
+    "siteUrl": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/vikram/Documents/GitHub/pictory"
   },
   "pages": {
     "index.html": {
