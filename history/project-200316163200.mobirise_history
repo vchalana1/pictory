@@ -65,7 +65,9 @@
       "opacityOverlay": "80",
       "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
       "textButton": "Agree"
-    }
+    },
+    "publishType": "local",
+    "publishPath": "file:///Users/vikram/Documents/GitHub/pictory"
   },
   "pages": {
     "index.html": {
