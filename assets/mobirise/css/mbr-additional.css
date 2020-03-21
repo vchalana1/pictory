@@ -4615,18 +4615,6 @@ section.lazy-placeholder:after {
     margin: 0;
   }
 }
-#custom-html-2k {
-  /* Type valid CSS here */
-}
-#custom-html-2k div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-2k p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-rBBbXkJeIx .navbar {
   background: #ffffff;
   transition: none;
