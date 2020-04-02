@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Pictory",
-    "currentPage": "beta_signup.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -268,9 +268,7 @@
       "text": "We use cookies to give you the best experience. Read our <a href='policy.html'>cookie policy</a>.",
       "textButton": "Agree"
     },
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "file:///Users/vikram/Documents"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
