@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Pictory",
-    "currentPage": "thanks.html",
+    "currentPage": "zoho-beta.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5497,7 +5497,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n   <iframe frameborder=\"0\" style=\"height:600px;width:99%;border:none;\" src=\"https://forms.zohopublic.com/pictorycorp/form/BetaSignUp/formperma/XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA\"></iframe>\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"zf_div_XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA\"></div>[JS_CODE_0]\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 15px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -5506,7 +5506,9 @@
           "_name": "pro.custom-html",
           "_anchor": "custom-html-2p",
           "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\">(function() {\ntry{\nvar f = document.createElement(\"iframe\");   \nf.src = 'https://forms.zohopublic.com/pictorycorp/form/BetaSignUp/formperma/XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA?zf_rszfm=1';\nf.style.border=\"none\";                                           \nf.style.height=\"791px\";\nf.style.width=\"90%\";\nf.style.transition=\"all 0.5s ease\";// No I18N\nvar d = document.getElementById(\"zf_div_XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA\");\nd.appendChild(f);\nwindow.addEventListener('message', function (){\nvar zf_ifrm_data = event.data.split(\"|\");\nvar zf_perma = zf_ifrm_data[0];\nvar zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + \"px\";\nvar iframe = document.getElementById(\"zf_div_XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA\").getElementsByTagName(\"iframe\")[0];\nif ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {\nvar prevIframeHeight = iframe.style.height;\nif ( prevIframeHeight != zf_ifrm_ht_nw ) {\niframe.style.height = zf_ifrm_ht_nw;\n}   \n}\n}, false);\n}catch(e){}\n})();</script>"
+          ]
         },
         {
           "alias": false,
