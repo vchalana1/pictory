@@ -298,7 +298,7 @@
         "title": "Pictory.AI - Create Teaser Video of an Article in Under 5 Minutes",
         "meta_descr": "Pictory uses the latest in AI to help create teaser videos from text articles -- blogs, white papers, case studies, etc.  ",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-8.jpg"
       },
@@ -2027,7 +2027,8 @@
         "meta_descr": "Automatically Create Teaser Summary Videos ",
         "title": "Product Tour",
         "order": 4,
-        "meta_image": "@PROJECT_PATH@/assets/images/mbr-8.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-8.jpg",
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -3385,7 +3386,8 @@
       "settings": {
         "meta_descr": "Pictory Terms and Conditions",
         "title": "Terms &amp;amp; Conditions",
-        "order": 8
+        "order": 8,
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -3946,7 +3948,7 @@
         "title": "Privacy Policy",
         "order": 7,
         "header_custom": "",
-        "footer_custom": ""
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -4506,7 +4508,8 @@
       "settings": {
         "meta_descr": "Thank you page",
         "title": "Thank you",
-        "order": 2
+        "order": 2,
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -5659,7 +5662,8 @@
       "settings": {
         "meta_descr": "Request to sign-up for Pictory Beta",
         "title": "Pictory Beta Sign-Up",
-        "order": 3
+        "order": 3,
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -6222,7 +6226,8 @@
       "settings": {
         "meta_descr": "Easily convert text to video",
         "title": "Text to Video Tool",
-        "order": 1
+        "order": 1,
+        "footer_custom": "<script type=\"text/javascript\" \nsrc='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
         {
@@ -6705,7 +6710,7 @@
             }
           },
           "_name": "header15",
-          "_customHTML": "<section class=\"header15\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Input Background\" name=\"inputBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Form Background\" name=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n        <input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Create video from text in minutes</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Video has 80% more conversions than text</p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    <br><br>Save time and money in creating videos<br>Create videos from blogs, articles, and more&nbsp;<br>Increase user engagement with content<br></p>\n            </div>\n            <div class=\"col-lg-4 col-md-5\">\n                <div class=\"form-container\">\n                    <div mbr-form class=\"media-container-column\">\n<!--Formbuilder Form-->\n<form action=\"https://forms.zohopublic.com/pictorycorp/form/BetaSignUp/formperma/XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA/htmlRecords/submit\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> </div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Pictory is in a limited Beta now</h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-row\">\n<div class=\"col\">\n<input type=\"text\" name=\"Name_First\" placeholder=\"First Name\" data-form-field=\"Name_First\" class=\"form-control text-multiple\" value>\n</div>\n<div class=\"col\">\n<input type=\"text\" name=\"Name_Last\" placeholder=\"Last Name\" data-form-field=\"Name_Last\" class=\"form-control text-multiple\" value>\n</div>\n</div>\n</div>\n<div data-for=\"Email\" class=\"col-md-12 form-group \">\n<input type=\"email\" name=\"Email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" required=\"required\" value>\n</div>\n<div data-for=\"PhoneNumber_countrycode\" class=\"col-md-12 form-group \">\n<input type=\"tel\" name=\"PhoneNumber_countrycode\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" value>\n</div>\n<div data-for=\"MultiLine\" class=\"col-md-12 form-group\">\n<textarea name=\"MultiLine\" placeholder=\"How I plan to use Pictory?\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control px-3\"></textarea>\n</div>\n<div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-form btn-primary\">Sign up for Beta</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header15\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Input Background\" name=\"inputBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Form Background\" name=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n        <input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Create video from text in minutes</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Video has 80% more conversions than text</p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    <br><br>Save time and money in creating videos<br>Create videos from blogs, articles, and more&nbsp;<br>Increase user engagement with content<br></p>\n            </div>\n            <div class=\"col-lg-4 col-md-5\">\n                <div class=\"form-container\">\n                    <div mbr-form class=\"media-container-column\">\n<!--Formbuilder Form-->\n<form action=\"https://forms.zohopublic.com/pictorycorp/form/BetaSignUp/formperma/XwbKsXoL7qczekDer5LoXMZXbLjGENE6x6fTw5DSwAA/htmlRecords/submit\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<input type=\"hidden\" id=\"zc_gad\" name=\"zc_gad\" value>\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> </div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h5 mbr-theme-style=\"display-7\" class=\"mbr-fonts-style\">Pictory is in a limited Beta now</h5>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-row\">\n<div class=\"col\">\n<input type=\"text\" name=\"Name_First\" placeholder=\"First Name\" data-form-field=\"Name_First\" class=\"form-control text-multiple\" value>\n</div>\n<div class=\"col\">\n<input type=\"text\" name=\"Name_Last\" placeholder=\"Last Name\" data-form-field=\"Name_Last\" class=\"form-control text-multiple\" value>\n</div>\n</div>\n</div>\n<div data-for=\"Email\" class=\"col-md-12 form-group \">\n<input type=\"email\" name=\"Email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" required=\"required\" value>\n</div>\n<div data-for=\"PhoneNumber_countrycode\" class=\"col-md-12 form-group \">\n<input type=\"tel\" name=\"PhoneNumber_countrycode\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" value>\n</div>\n<div data-for=\"MultiLine\" class=\"col-md-12 form-group\">\n<textarea name=\"MultiLine\" placeholder=\"How I plan to use Pictory?\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control px-3\"></textarea>\n</div>\n<div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-form btn-primary\">Sign up for Beta</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rWn8y7fz51",
           "_anchor": "header15-34",
           "_PHPplaceholders": [],
