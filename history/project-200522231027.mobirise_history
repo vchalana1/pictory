@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Pictory",
-    "currentPage": "beta_signup.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -21,8 +21,6 @@
         "display5Size": "2.0",
         "display7Font": "Rubik",
         "display7Size": "1.25",
-        "display8Font": "Rubik",
-        "display8Size": 0.5,
         "display4Font": "Rubik",
         "display4Size": "1.5",
         "isRoundedButtons": true,
