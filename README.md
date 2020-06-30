@@ -1,2 +1,0 @@
-# pictory
-GitHub Pages
