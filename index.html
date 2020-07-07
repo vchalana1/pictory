@@ -74,15 +74,24 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
 	</amp-sidebar>
 
 <!-- Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag(‘js’, new Date());
-  gtag(‘config’, ‘UA-147523631-1’);
-  gtag(‘config’, ‘AW-677181474’);
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "UA-147523631-1",
+    "config" : {
+      "UA-147523631-1": { "groups": "default" }
+    }
+  }
+"vars" : {
+    "gtag_id": "AW-677181474",
+    "config" : {
+      "AW-677181474": { "groups": "default" }
+    }
+ }
+}
 </script>
+</amp-analytics>
 <!-- /Analytics -->
 
 
@@ -771,7 +780,7 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
                     <h5 class="mbr-fonts-style mbr-semibold title-column display-4 align-left">Interested in a demo?</h5>
                     <!-- Form -->
                     <div class="column4__form" data-form-type="formoid">
-                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="U+J+ZA1gZ0B+ImkrR220Qwy3qM6MUad4yiOy9uxU0/VmWRqJV5tYtgQAnhIQ05XBPHqtDnlQSp9I+78sD0sfFV3r/s0Lyxja7D8I6zujzq2Vc9l4ePoO3BwdX6k3gCcG.ojd5YtEiMc3Vj46g47FWvg8VFCLBEYksqOIPFGRykMiuX3r9RiNFZfdj4o0s7gDlqpK87clgbuOkgvPgl8gmzrrNPSHwQxmHPwT4A5Kw6B0WI0LtoCVZbBdxTLDyY30J">
+                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="4Ia5OfzyJnYq7Mry6qppPwin6h/Wsjja5zRo1CCA2+cHyqz0Mwvojw/AGAM+b69dRIa5FgaE8UiQuhtoD+10LMdrPS/Fltprq8CaNbnyepQ+I7qHjU4zVaOucHaQiyYN.uGMz+W/FN7BxAFakeRQ0OpqAlcjpez0+Wfe0Vs9wljRjzKeaQRSVUKKo5CT+aQwAbQnw1zTPPvP90EQcwPLwiqppIihj3jmlE8OF5pDUdVBuoV2lt3TGD/tkUFur5e5F">
                             <div class="mbr-form-row">
                                 <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
                                     <template data-form-alert="" type="amp-mustache">We will get back to you soon!</template>
