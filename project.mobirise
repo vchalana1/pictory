@@ -241,7 +241,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 267,
+    "uniqCompNum": 273,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -268,7 +268,8 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "google-analytics": "<amp-analytics type=\"gtag\" data-credentials=\"include\">\n<script type=\"application/json\">\n{\n  \"vars\" : {\n    \"gtag_id\": \"UA-147523631-1\",\n    \"config\" : {\n      \"UA-147523631-1\": { \"groups\": \"default\" }\n    }\n  }\n}\n</script>\n</amp-analytics>\n\n<amp-analytics type=\"gtag\" data-credentials=\"include\">\n<script type=\"application/json\">\n{\n\"vars\" : {\n    \"gtag_id\": \"AW-677181474\",\n    \"config\" : {\n      \"AW-677181474\": { \"groups\": \"default\" }\n    }\n }\n}\n</script>\n</amp-analytics>\n\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=‘2.0’;\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window,document,‘script’,\n‘https://connect.facebook.net/en_US/fbevents.js’);\n fbq(‘init’, ‘307712273817001’);\nfbq(‘track’, ‘PageView’);\n</script>\n<noscript>\n <img height=“1” width=“1\"\nsrc=“https://www.facebook.com/tr?id= 307712273817001&ev=PageView\n&noscript=1”/>\n</noscript>\n<!-- End Facebook Pixel Code -->\n",
-    "cssOptimize": true
+    "cssOptimize": true,
+    "canonical-url": false
   },
   "pages": {
     "index.html": {
@@ -276,7 +277,7 @@
         "main": true,
         "title": "Pictory - Text to video in minutes",
         "meta_descr": "Increase user engagement with your content. Pictory uses the latest in Artificial Intelligence (AI) let anyone create videos from text on-demand",
-        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
+        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>\n\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=‘2.0’;\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window,document,‘script’,\n‘https://connect.facebook.net/en_US/fbevents.js’);\n fbq(‘init’, ‘307712273817001’);\nfbq(‘track’, ‘PageView’);\n</script>\n<noscript>\n <img height=“1” width=“1\"\nsrc=“https://www.facebook.com/tr?id= 307712273817001&ev=PageView\n&noscript=1”/>\n</noscript>\n<!-- End Facebook Pixel Code -->\n",
         "footer_custom": "",
         "html_before": ""
       },
@@ -2029,7 +2030,7 @@
     "terms.html": {
       "settings": {
         "title": "Pictory | Terms",
-        "order": 12,
+        "order": 13,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
@@ -2383,7 +2384,7 @@
     "product.html": {
       "settings": {
         "title": "Pictory | Product",
-        "order": 15,
+        "order": 16,
         "meta_descr": "",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
@@ -3233,7 +3234,7 @@
     "pricing.html": {
       "settings": {
         "title": "Pictory | Pricing",
-        "order": 16,
+        "order": 17,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
@@ -3922,7 +3923,7 @@
     "policy.html": {
       "settings": {
         "title": "Pictory | Privacy Policy",
-        "order": 13,
+        "order": 14,
         "meta_descr": "Pictory privacy policy",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
@@ -4278,7 +4279,7 @@
     "thanks.html": {
       "settings": {
         "title": "Pictory | Thank you",
-        "order": 11,
+        "order": 12,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<!-- Event snippet for Submit lead form conversion page -->\n<script>\n  gtag(‘event’, ‘conversion’, {‘send_to’: ‘AW-677181474/BGM4CJrrqs0BEKLw88IC’});\n</script>"
       },
       "components": [
@@ -4626,7 +4627,7 @@
     "blog.html": {
       "settings": {
         "title": "Pictory | Blog",
-        "order": 14,
+        "order": 15,
         "meta_descr": "Pictory Blog consists of articles written by thought leaders in tech and product managers",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
@@ -5817,7 +5818,7 @@
     "b2b_marketing_blog.html": {
       "settings": {
         "title": "Pictory | b2b_marketing_blog",
-        "order": 4,
+        "order": 5,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": ""
       },
@@ -6383,7 +6384,7 @@
     "pictory_is_now_GA.html": {
       "settings": {
         "title": "Pictory | pictory_is_now_GA",
-        "order": 10,
+        "order": 11,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
       "components": [
@@ -6951,7 +6952,7 @@
     "blog_to_video.html": {
       "settings": {
         "title": "Pictory | Blog to video in minutes",
-        "order": 2,
+        "order": 3,
         "meta_descr": "Convert your blog to video in minutes",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
@@ -7457,7 +7458,7 @@
     "page10.html": {
       "settings": {
         "title": "Test Contact",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -7581,7 +7582,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu1 menu horizontal-menu\" group=\"Menu\" plugins=\"DropDown, amp-main, amp-sidebar\" always-top global once=\"menu\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<!--  -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"checkbox\" title=\"Sticky Position\" name=\"sticky\" checked>\n\t\t<!--  -->\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\">\n\t\t<input type=\"range\" inline title=\"Icons Count\" name=\"socialCount\" min=\"1\" max=\"6\" value=\"2\" step=\"1\" condition=\"showSocial\">\n\t\t<header>Sidebar</header>\n\t\t<select title=\"Side\" name=\"sidebarSide\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"right\" selected>Right</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3756c0\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\" required>\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\t<!-- <div class=\"menu-wrapper\"> -->\n\t<nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top': sticky}\">\n\t\t<div class=\"menu-container\" mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t\t'container-fluid': fullWidth,\n\t\t\t\t\t\t'mbr-jc-e': !showLogo && !showBrand}\">\n\t\t\t<!-- SHOW LOGO -->\n\t\t\t<div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n\t\t\t\t<div mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/pictory-blue-logo-1-120x120.png\" layout=\"responsive\" height=\"50\" width=\"50\" alt=\"image\" class=\"placeholder-loader\">\n\t\t\t\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t\t\t\t\t<a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/pictory-blue-logo-1-120x120.png\" alt title></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption mbr-semibold text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">PICTORY</a></span>\n\t\t\t</div>\n\t\t\t<!-- SHOW LOGO END -->\n\t\t\t<!-- COLLAPSED MENU -->\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showSocial || showButtons\">\n\t\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t</div>\n\t\t\t\t</button>\n\t\t\t\t<!-- NAVBAR ITEMS -->\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-semibold link text-black\" href=\"product.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Product</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"pricing.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Pricing</a></li><li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"index.html#Gallery\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Gallery</a></li><li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"blog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Blog</a></li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-semibold link text-black\" href=\"https://app.pictory.ai/login\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Login</a>\n\t\t\t\t\t</li></ul>\n\t\t\t\t<!-- NAVBAR ITEMS END -->\n\t\t\t\t<!-- SOCIAL ICON -->\n\t\t\t\t<div class=\"menu-social-list\" mbr-if=\"showSocial\" mbr-list mbr-list-grow=\"socialCount\" mbr-link-type=\"socials\">\n\t\t\t\t\t<a href=\"https://twitter.com/8bsite\" target=\"_blank\" class=\"iconfont-wrapper\">\n\t\t\t\t\t\t<span mbr-icon class=\"amp-iconfont animation-normal fa-twitter-square fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://www.facebook.com/8bsite/\" target=\"_blank\" class=\"iconfont-wrapper\">\n\t\t\t\t\t\t<span mbr-icon class=\"amp-iconfont animation-normal fa-instagram fa\"></span>\n\t\t\t\t\t</a>\n\n\n\n\t\t\t\t</div>\n\t\t\t\t<!-- SOCIAL ICON END -->\n\t\t\t\t<!-- SHOW BUTTON -->\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md mbr-semibold btn-success\" href=\"https://app.pictory.ai/signup\" data-app-placeholder=\"Type Text\" target=\"_blank\">Free Trial</a></div>\n\t\t\t\t<!-- SHOW BUTTON END -->\n\t\t\t</div>\n\t\t\t<!-- COLLAPSED MENU END -->\n\t\t\t<button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showSocial || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-if=\"(showItems||showButtons)\">\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n\t<!-- AMP plug -->\n\t<amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n\t\t<div class=\"builder-sidebar\" id=\"builder-sidebar\">\n\t\t\t<button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t</button>\n\t\t</div>\n\t</amp-sidebar>\n\t<!-- </div> -->\n</section>",
+          "_customHTML": "<section class=\"menu1 menu horizontal-menu\" group=\"Menu\" plugins=\"DropDown, amp-main, amp-sidebar\" always-top=\"\" global=\"\" once=\"menu\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<!--  -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"checkbox\" title=\"Sticky Position\" name=\"sticky\" checked=\"\">\n\t\t<!--  -->\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\">\n\t\t<input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"socialCount\" min=\"1\" max=\"6\" value=\"2\" step=\"1\" condition=\"showSocial\">\n\t\t<header>Sidebar</header>\n\t\t<select title=\"Side\" name=\"sidebarSide\">\n\t\t\t<option value=\"left\">Left</option>\n\t\t\t<option value=\"right\" selected=\"\">Right</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3756c0\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\" required=\"\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\t<!-- <div class=\"menu-wrapper\"> -->\n\t<nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top': sticky}\">\n\t\t<div class=\"menu-container\" mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t\t'container-fluid': fullWidth,\n\t\t\t\t\t\t'mbr-jc-e': !showLogo &amp;&amp; !showBrand}\">\n\t\t\t<!-- SHOW LOGO -->\n\t\t\t<div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n\t\t\t\t<div mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/pictory-blue-logo-1-120x120.png\" layout=\"responsive\" height=\"50\" width=\"50\" alt=\"image\" class=\"placeholder-loader\">\n\t\t\t\t\t\t<div placeholder=\"\" class=\"placeholder\"></div>\n\t\t\t\t\t\t<a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/pictory-blue-logo-1-120x120.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption mbr-semibold text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">PICTORY</a></span>\n\t\t\t</div>\n\t\t\t<!-- SHOW LOGO END -->\n\t\t\t<!-- COLLAPSED MENU -->\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showSocial || showButtons\">\n\t\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t\t<span></span>\n\t\t\t\t\t</div>\n\t\t\t\t</button>\n\t\t\t\t<!-- NAVBAR ITEMS -->\n\t\t\t\t<ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-semibold link text-black\" href=\"product.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Product</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"pricing.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Pricing</a></li><li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"index.html#Gallery\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Gallery</a></li><li class=\"nav-item\"><a class=\"nav-link mbr-semibold link text-black\" href=\"blog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Blog</a></li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-semibold link text-black\" href=\"https://app.pictory.ai/login\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Login</a>\n\t\t\t\t\t</li></ul>\n\t\t\t\t<!-- NAVBAR ITEMS END -->\n\t\t\t\t<!-- SOCIAL ICON -->\n\t\t\t\t<div class=\"menu-social-list\" mbr-if=\"showSocial\" mbr-list=\"\" mbr-list-grow=\"socialCount\" mbr-link-type=\"socials\">\n\t\t\t\t\t<a href=\"https://twitter.com/8bsite\" target=\"_blank\" class=\"iconfont-wrapper\">\n\t\t\t\t\t\t<span mbr-icon=\"\" class=\"amp-iconfont animation-normal fa-twitter-square fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://www.facebook.com/8bsite/\" target=\"_blank\" class=\"iconfont-wrapper\">\n\t\t\t\t\t\t<span mbr-icon=\"\" class=\"amp-iconfont animation-normal fa-instagram fa\"></span>\n\t\t\t\t\t</a>\n\n\n\n\t\t\t\t</div>\n\t\t\t\t<!-- SOCIAL ICON END -->\n\t\t\t\t<!-- SHOW BUTTON -->\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md mbr-semibold btn-success\" href=\"https://app.pictory.ai/signup\" data-app-placeholder=\"Type Text\" target=\"_blank\">Free Trial</a></div>\n\t\t\t\t<!-- SHOW BUTTON END -->\n\t\t\t</div>\n\t\t\t<!-- COLLAPSED MENU END -->\n\t\t\t<button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showSocial || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-if=\"(showItems||showButtons)\">\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t</button>\n\t\t</div>\n\t</nav>\n\t<!-- AMP plug -->\n\t<amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n\t\t<div class=\"builder-sidebar\" id=\"builder-sidebar\">\n\t\t\t<button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n\t\t\t\t<span></span>\n\t\t\t\t<span></span>\n\t\t\t</button>\n\t\t</div>\n\t</amp-sidebar>\n\t<!-- </div> -->\n</section>",
           "_cid": "rBLaixeYuY",
           "_anchor": "menu1-44",
           "_protectedParams": [],
@@ -7623,7 +7624,7 @@
     "summary_video.html": {
       "settings": {
         "title": "Pictory | Summary Video",
-        "order": 3,
+        "order": 4,
         "meta_descr": "Create a summary video of your text article in minutes",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>"
       },
@@ -8129,7 +8130,7 @@
     "part1-videos-in-product-marketing.html": {
       "settings": {
         "title": "Pictory | Part1 : Product Marketing",
-        "order": 7,
+        "order": 8,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": "Product marketing communications must be easily consumed and understood by your target audiences, must work on many devices - and most importantly, must be agile to meet rapidly changing product, and market conditions."
       },
@@ -8698,7 +8699,7 @@
     "case-study-Aeon-Law.html": {
       "settings": {
         "title": "Pictory | Aeon's Law Case Study",
-        "order": 6,
+        "order": 7,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": "Aeon Law is a Seattle-based full-service intellectual property legal firm. They publish a weekly blog post that takes a complex intellectual property issue and condenses it down into a 300 word blog post. They also create a three-line haiku that summarizes the whole post. "
       },
@@ -9269,7 +9270,7 @@
     "videos-in-marketing.html": {
       "settings": {
         "title": "Pictory | Video in Marketing",
-        "order": 5,
+        "order": 6,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": "For many organizations, videos are quickly becoming a part of their marketing strategy. Whether they are creating videos for YouTube, or LinkedIn campaigns, or for quick advertisements, videos show a better ROI for the marketers.\n"
       },
@@ -10513,7 +10514,7 @@
     "part2-videos-in-product-marketing.html": {
       "settings": {
         "title": "Pictory |Part2: Product Marketing",
-        "order": 8,
+        "order": 9,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": "Product marketing communications must be easily consumed and understood by your target audiences, must work on many devices - and most importantly, must be agile to meet rapidly changing product, and market conditions."
       },
@@ -11082,7 +11083,7 @@
     "part3-what-if-video-creation-is-as-easy-as-email.html": {
       "settings": {
         "title": "Pictory |Part3: Product Marketing",
-        "order": 9,
+        "order": 10,
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-147523631-1”></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(‘js’, new Date());\n  gtag(‘config’, ‘UA-147523631-1’);\n  gtag(‘config’, ‘AW-677181474’);\n</script>\n<script type=\"text/javascript\"  src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>",
         "meta_descr": "Product marketing communications must be easily consumed and understood by your target audiences, must work on many devices - and most importantly, must be agile to meet rapidly changing product, and market conditions."
       },
