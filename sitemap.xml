@@ -6,9 +6,6 @@
 		<loc>https://pictory.ai/terms.html</loc>
 	</url>
 	<url>
-		<loc>https://pictory.ai/product.html</loc>
-	</url>
-	<url>
 		<loc>https://pictory.ai/policy.html</loc>
 	</url>
 	<url>
@@ -55,5 +52,14 @@
 	</url>
 	<url>
 		<loc>https://pictory.ai/edit-videos-in-minutes.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/create-video-product.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/edit-video-product.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/high-frequency-high-fidelity-videos.html</loc>
 	</url>
 </urlset>
