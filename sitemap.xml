@@ -48,9 +48,6 @@
 		<loc>https://pictory.ai/pricing.html</loc>
 	</url>
 	<url>
-		<loc>https://pictory.ai/easy-video-editor.html</loc>
-	</url>
-	<url>
 		<loc>https://pictory.ai/edit-videos-in-minutes.html</loc>
 	</url>
 	<url>
@@ -73,5 +70,8 @@
 	</url>
 	<url>
 		<loc>https://pictory.ai/pictory-social-facebook.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/easy-video-editor.html</loc>
 	</url>
 </urlset>
