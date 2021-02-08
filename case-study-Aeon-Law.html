@@ -40,7 +40,7 @@ src="https://www.facebook.com/tr?id=307712273817001&ev=PageView
 &noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
-
+ 
 <script type="text/javascript">
     // Parse the URL
     function getParameterByName(name, url = window.location.href) {
@@ -53,12 +53,13 @@ src="https://www.facebook.com/tr?id=307712273817001&ev=PageView
     }
     function setCookie(name,value,days) {
       var expires = "";
+      var domainName = window.location.hostname;
       if (days) {
           var date = new Date();
           date.setTime(date.getTime() + (days*24*60*60*1000));
           expires = "; expires=" + date.toUTCString();
       }
-      document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+      document.cookie = name + "=" + (value || "")  + expires + "; domain=" + domainName + "; path=/";
     }
     function getCookie(name) {
         var nameEQ = name + "=";
@@ -74,17 +75,16 @@ src="https://www.facebook.com/tr?id=307712273817001&ev=PageView
     var source = getParameterByName('utm_source');
     var medium = getParameterByName('utm_medium');
     var campaign = getParameterByName('utm_campaign');
-    if (getCookie('utm_source') == null && source != '')  {
+    if (getCookie('utm_source') == null && source)  {
         setCookie('utm_source', source, 7)
     }
-    if (getCookie('utm_medium') == null && medium != '')  {
+    if (getCookie('utm_medium') == null && medium)  {
         setCookie('utm_medium', medium, 7)
     }
-    if (getCookie('utm_campaign') == null && campaign != '')  {
+    if (getCookie('utm_campaign') == null && campaign)  {
         setCookie('utm_campaign', campaign, 7)
     }
 </script>
-
   
   <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
   
@@ -342,7 +342,7 @@ src="https://www.facebook.com/tr?id=307712273817001&ev=PageView
                     <h5 class="mbr-fonts-style mbr-semibold title-column display-4 align-left">Interested in a demo?</h5>
                     <!-- Form -->
                     <div class="column4__form" data-form-type="formoid">
-                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form" id="myFormampFooter235w" on="submit:myFormampFooter235w.clear;submit-success:AMP.setState({myStateampFooter235w:{formdata01ampFooter235w:{stateformdata01ampFooter235w: '', valueformdata01ampFooter235w: ''}, gdprampFooter235w:{stategdprampFooter235w: '', valuegdprampFooter235w: ''}}});submit-error:AMP.setState({myStateampFooter235w:{formdata01ampFooter235w:{stateformdata01ampFooter235w: myStateampFooter235w.formdata01ampFooter235w.valueformdata01ampFooter235w}, gdprampFooter235w:{stategdprampFooter235w: myStateampFooter235w.gdprampFooter235w.valuegdprampFooter235w}}})"><amp-state id="myStateampFooter235w"><script type="application/json"> {"formdata01ampFooter235w":{ "stateformdata01ampFooter235w": "", "valueformdata01ampFooter235w": ""},"gdprampFooter235w":{ "stategdprampFooter235w": "", "valuegdprampFooter235w": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="Alcit+QBltfrm10ukTEX+lxeCLuRVrSDY7aRfNYMTdl4BbvooYboO2zjJnLGd5ZlJCNKrVcHA5GoTdwMLWhDMFlTnk858D2t9K3x5ML98mepY2M5QMAOZ29+xoDfqc7+">
+                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form" id="myFormampFooter235w" on="submit:myFormampFooter235w.clear;submit-success:AMP.setState({myStateampFooter235w:{formdata01ampFooter235w:{stateformdata01ampFooter235w: '', valueformdata01ampFooter235w: ''}, gdprampFooter235w:{stategdprampFooter235w: '', valuegdprampFooter235w: ''}}});submit-error:AMP.setState({myStateampFooter235w:{formdata01ampFooter235w:{stateformdata01ampFooter235w: myStateampFooter235w.formdata01ampFooter235w.valueformdata01ampFooter235w}, gdprampFooter235w:{stategdprampFooter235w: myStateampFooter235w.gdprampFooter235w.valuegdprampFooter235w}}})"><amp-state id="myStateampFooter235w"><script type="application/json"> {"formdata01ampFooter235w":{ "stateformdata01ampFooter235w": "", "valueformdata01ampFooter235w": ""},"gdprampFooter235w":{ "stategdprampFooter235w": "", "valuegdprampFooter235w": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="0MsjqFk6IKRmGDMouR86A7qdpXqTEVbvJXRKkrD71qXPqi/OkkdJREuyDMySNKZZ8pAlNX+2ORZakkufskk8pPD2xaw2sNsV4ZVir11NIcT6pvR3NzgmlgzNUqtwD6pc">
                             <div class="mbr-form-row">
                                 <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
                                     <template data-form-alert="" type="amp-mustache">We will get back to you soon!</template>
