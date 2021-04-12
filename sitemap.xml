@@ -1,8 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://pictory.ai/index.html</loc>
-	</url>
-	<url>
 		<loc>https://pictory.ai/terms.html</loc>
 	</url>
 	<url>
@@ -93,9 +90,6 @@
 		<loc>https://pictory.ai/video-post-production.html</loc>
 	</url>
 	<url>
-		<loc>https://pictory.ai/more-with-less.html</loc>
-	</url>
-	<url>
 		<loc>https://pictory.ai/video-highlights.html</loc>
 	</url>
 	<url>
@@ -109,5 +103,11 @@
 	</url>
 	<url>
 		<loc>https://pictory.ai/repurpose-content-for-social-media.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/old-index.html</loc>
+	</url>
+	<url>
+		<loc>https://pictory.ai/index.html</loc>
 	</url>
 </urlset>
