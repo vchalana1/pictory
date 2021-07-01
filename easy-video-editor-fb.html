@@ -104,6 +104,8 @@ src="https://www.facebook.com/tr?id=307712273817001&ev=PageView
 </noscript>
 <!-- End Facebook Pixel Code -->
 
+<!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
   <!-- Event snippet for Video Edit Signup conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
@@ -149,7 +151,10 @@ function gtag_report_conversion(url) {
 				<!-- SHOW BUTTON END -->
 			</div>
 	</amp-sidebar>
-  <amp-analytics type="gtag" data-credentials="include">
+  <!-- Google Tag Manager -->
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-T3PMFPN&amp;gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+
+<amp-analytics type="gtag" data-credentials="include">
 <script type="application/json">
 {
   "vars" : {
@@ -835,7 +840,7 @@ function gtag_report_conversion(url) {
                     <h5 class="mbr-fonts-style mbr-semibold title-column display-4 align-left">Interested in a demo?</h5>
                     <!-- Form -->
                     <div class="column4__form" data-form-type="formoid">
-                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form" id="myFormampFooter23c1" on="submit:myFormampFooter23c1.clear;submit-success:AMP.setState({myStateampFooter23c1:{formdata01ampFooter23c1:{stateformdata01ampFooter23c1: '', valueformdata01ampFooter23c1: ''}}});submit-error:AMP.setState({myStateampFooter23c1:{formdata01ampFooter23c1:{stateformdata01ampFooter23c1: myStateampFooter23c1.formdata01ampFooter23c1.valueformdata01ampFooter23c1}}})"><amp-state id="myStateampFooter23c1"><script type="application/json"> {"formdata01ampFooter23c1":{ "stateformdata01ampFooter23c1": "", "valueformdata01ampFooter23c1": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="hjRLktpmuse53qJjd5ZVHZnOX+d9COP4/cXixXjocrW/Jc873pDMf1G/VI1aOQCeHNXHWLpihJDLOc+Sq9EWQeaKGq9tOzLocQuB7CndjqZedPizGWs4dWEJg+/RQWHH">
+                        <form action-xhr="https://formoid.net/api/amp-form/push" method="POST" class="mbr-form" data-form-title="Mobirise Form" id="myFormampFooter23c1" on="submit:myFormampFooter23c1.clear;submit-success:AMP.setState({myStateampFooter23c1:{formdata01ampFooter23c1:{stateformdata01ampFooter23c1: '', valueformdata01ampFooter23c1: ''}}});submit-error:AMP.setState({myStateampFooter23c1:{formdata01ampFooter23c1:{stateformdata01ampFooter23c1: myStateampFooter23c1.formdata01ampFooter23c1.valueformdata01ampFooter23c1}}})"><amp-state id="myStateampFooter23c1"><script type="application/json"> {"formdata01ampFooter23c1":{ "stateformdata01ampFooter23c1": "", "valueformdata01ampFooter23c1": ""}}</script></amp-state><input type="hidden" name="email" data-form-email="true" value="OsY8bWhE/mTWQYDdymRLtpML6v9kp9oFnSKBID0HPKXdL7J4I6JViH3cMpXYF1gCgV+QAZvlUPOVHWxCe/cu+Y94IucAjCncp5tjGbPjIBduo8/FOdYA1onEzb9TPB/n">
                             <div class="mbr-form-row">
                                 <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
                                     <template data-form-alert="" type="amp-mustache">We will get back to you soon!</template>
